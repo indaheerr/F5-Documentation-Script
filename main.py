@@ -7,8 +7,6 @@ ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh.connect(hostname="<ip mgmt>",username="<username>",password="<password>")
 conn = ssh.invoke_shell()
 
-rishad = "ganteng"
-
 output2 = 0; output3 =[]; netself_data=[]; ipnetself =[]; output2arr =[]; output_perbariskecil = []; output4 = ""; output5 = ""; vlan_data = []; netself_data_nama =[]; netroute_data=[]; netroute_data_judul =[]
 vlan_data_judul = []; netself_data_judul = []; pool_no = []; pool_status = []; pool_name = []; pool_port = []; pool_weight = []; pool_Minimumactivemember = []; pool_heathcheck = []; pool_loadbalancing = []; farr = []; farr2= []; output6 = []
 pooldf =[]; irule = []; output5 = ""; profiles = []; countbiasa=0; countprofile=0; mac_address = []
